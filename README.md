@@ -89,23 +89,22 @@ The frontend is built using **React.js**, **Vite**, and **Tailwind CSS**, while 
 ```text
 games-ecommerce-store
 │
-├── client/
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── server/
-│   ├── routes/
+├── Backend/
+│   ├── config/
 │   ├── controllers/
 │   ├── middleware/
-│   ├── config/
-│   └── package.json
+│   ├── routes/
+│   ├── package.json
+│   └── ...
 │
-├── database/
+├── Frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── ...
 │
 ├── README.md
 ├── LICENSE
-└── .gitignore
 ```
 
 ---
